@@ -1,0 +1,57 @@
+- = Property
+# = Relation
+
+Benutzer:
+=========
+	- Vorname
+	- Nachname
+	- Geburtsdatum
+	- Größe
+	- Orginales Foto
+	- Startgewicht
+	- Geschlecht
+	# Zwischengewicht
+	# Mahlzeit
+	# Traingsplan
+
+Zwischengewicht:
+================
+	- Gewicht
+	- Datum
+	- Foto
+	
+Mahlzeit:
+=========
+	- Datum(+Uhrzeit)
+	# Zutaten
+
+Zutaten:
+========
+	- Beschreibung
+	- Anzahl/Gewicht (Select?)
+	
+Trainingstag:
+=============
+	- Datum
+	# Traingsplan
+	
+Traingsplan:
+============
+	- Beschreibung
+	# Übung
+	
+Übung:
+======
+	- Beschreibung
+	- #Übungssatz
+
+Übungssatz:
+===========
+	- Wiederholungen
+	- Gewicht
+	
+	
+~~~~~~~~~~~~
+~ FEATURES ~
+~~~~~~~~~~~~
+Trainingsprogram: Zeigt auf, was in welchem Zeitraum gegessen werden soll / wie trainiert werden soll.
