@@ -24,6 +24,7 @@ Zwischengewicht:
 Mahlzeit:
 =========
 	- Datum(+Uhrzeit)
+	- Foto
 	# Zutaten
 
 Zutaten:
@@ -35,6 +36,7 @@ Trainingstag:
 =============
 	- Datum
 	# Traingsplan
+	# Übung
 	
 Traingsplan:
 ============
@@ -44,6 +46,7 @@ Traingsplan:
 Übung:
 ======
 	- Beschreibung
+	- Dauer
 	- #Übungssatz
 
 Übungssatz:
