@@ -12,9 +12,9 @@ Benutzer:
 	- Wunschgewicht
 	- Geschlecht
 	# Zwischengewicht
+	# Trainingstag
 	# Mahlzeit
-	# Traingsplan
-
+	
 Zwischengewicht:
 ================
 	- Gewicht
@@ -38,31 +38,15 @@ Trainingstag:
 	# Traingsplan
 	# Übung
 	
-Traingsplan:
-============
-	- Beschreibung
-	# Übung
 	
 Übung:
 ======
 	- Beschreibung
 	- Dauer
+	- Gerät
 	- #Übungssatz
 
 Übungssatz:
 ===========
 	- Wiederholungen
 	- Gewicht
-	
-	
-~~~~~~~~~~~~~~
-~ FUNKTIONEN ~
-~~~~~~~~~~~~~~
-	- BMI
-	- Graph mit Gewicht, respektiert Wuschgewicht
-		-> Detailseite pro Eingetragenes Zwischengewicht mit Mahlzeiten und Foto
-	
-~~~~~~~~~~~~
-~ FEATURES ~
-~~~~~~~~~~~~
-Trainingsprogram: Zeigt auf, was in welchem Zeitraum gegessen werden soll / wie trainiert werden soll.
