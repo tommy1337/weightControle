@@ -1,0 +1,14 @@
+plugin.tx_wc {
+	view {
+		# cat=plugin.tx_wc/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:wc/Resources/Private/Templates/
+		# cat=plugin.tx_wc/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:wc/Resources/Private/Partials/
+		# cat=plugin.tx_wc/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:wc/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_wc//a; type=string; label=Default storage PID
+		storagePid =
+	}
+}

@@ -1,0 +1,7 @@
+<div class="list">
+	<ul>
+		<f:for each="{users}" as="oneU">
+			<li><f:link.action action="show" arguments="{user:oneU}" pageUid="{detailPid}" pluginName="pi2">{oneU.name}</f:link.action></li>
+		</f:for>
+	</ul>
+</div>

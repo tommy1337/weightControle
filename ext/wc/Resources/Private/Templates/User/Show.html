@@ -1,0 +1,30 @@
+<div id="wcShow" class="properties">
+	<div class="leftCol float_left">
+		<f:image src="uploads/tx_wc/{user.origPhoto}" maxWidth="200px" alt="{user.firstname} "/>
+	</div>
+	<div class="rightCol float_right">
+		<div class="row">
+			<div class="name float_left">Geschlecht</div>
+			<div class="value">{user.gender}</div>
+		</div>
+		<div class="row">
+			<div class="name float_left">Name</div>
+			<div class="value">{user.name}</div>
+		</div>
+		<div class="row">
+			<div class="name float_left">Alter</div>
+			<div class="value">{user.age}</div>
+		</div>
+		<div class="row">
+			<div id="graph"></div>
+			<div class="hide">
+				<f:for each="{user.WeightStep}" as="step">[{step.date.timestamp},{step.weight}],</f:for>
+			</div>
+		</div>
+	</div>
+	<div class="clear"></div>
+</div>
+
+<script type="text/javascript" src="typo3conf/ext/wc/Resources/Public/Js/heightstock/highstock.js"></script>
+<script type="text/javascript" src="typo3conf/ext/wc/Resources/Public/Js/heightstock/exporting.js"></script>
+<script type="text/javascript" src="typo3conf/ext/wc/Resources/Public/Js/show.js"></script>

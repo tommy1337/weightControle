@@ -1,0 +1,19 @@
+/* wcShow */
+.clear{clear:both;}
+.float_left{float:left;}
+.float_right{float:right;}
+#wcShow .leftCol{	
+	width: 20%;
+	margin-right: 2%;
+}
+#wcShow .rightCol{	
+	width: 78%;
+}
+#wcShow .rightCol .name{
+	width: 150px;
+	font-weight: bold;
+}
+#graph{
+	height: 200px;
+	width: 100%;
+}

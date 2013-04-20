@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2013-04-20T11:02:09Z" product-name="wc">
+		<header/>
+		<body>
+
+			<trans-unit id="firstname.description">
+				<source>firstname</source>
+			</trans-unit>
+			<trans-unit id="lastname.description">
+				<source>lastname</source>
+			</trans-unit>
+			<trans-unit id="date_of_birth.description">
+				<source>dateOfBirth</source>
+			</trans-unit>
+			<trans-unit id="gender.description">
+				<source>gender</source>
+			</trans-unit>
+			<trans-unit id="orig_photo.description">
+				<source>origPhoto</source>
+			</trans-unit>
+			<trans-unit id="start_weight.description">
+				<source>startWeight</source>
+			</trans-unit>
+			<trans-unit id="desired_weight.description">
+				<source>desiredWeight</source>
+			</trans-unit>
+			<trans-unit id="weight_step.description">
+				<source>weightStep</source>
+			</trans-unit>
+			<trans-unit id="meal.description">
+				<source>meal</source>
+			</trans-unit>
+			<trans-unit id="training_day.description">
+				<source>trainingDay</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

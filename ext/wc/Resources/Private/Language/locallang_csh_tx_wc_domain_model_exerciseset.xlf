@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2013-04-20T11:02:09Z" product-name="wc">
+		<header/>
+		<body>
+
+			<trans-unit id="times.description">
+				<source>times</source>
+			</trans-unit>
+			<trans-unit id="weight.description">
+				<source>weight</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

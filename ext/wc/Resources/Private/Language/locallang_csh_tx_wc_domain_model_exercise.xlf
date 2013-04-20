@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2013-04-20T11:02:09Z" product-name="wc">
+		<header/>
+		<body>
+
+			<trans-unit id="tx_wc_desc.description">
+				<source>desc</source>
+			</trans-unit>
+			<trans-unit id="time.description">
+				<source>time</source>
+			</trans-unit>
+			<trans-unit id="equipment.description">
+				<source>equipment</source>
+			</trans-unit>
+			<trans-unit id="exercise_set.description">
+				<source>exerciseSet</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

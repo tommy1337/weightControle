@@ -1,0 +1,19 @@
+config.tx_extbase{
+    persistence{
+        classes{
+
+            tg\Wc\Domain\Model\Ingredient {
+                mapping {
+                    
+                }
+            }
+            
+            tg\Wc\Domain\Model\Exercise {
+                mapping {
+                    
+                }
+            }
+            
+    	}
+    }
+}

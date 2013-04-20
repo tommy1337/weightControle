@@ -1,0 +1,21 @@
+plugin.tx_wc {
+	view {
+		templateRootPath = {$plugin.tx_wc.view.templateRootPath}
+		partialRootPath = {$plugin.tx_wc.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_wc.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_wc.persistence.storagePid}
+	}
+	features {
+		# uncomment the following line to enable the new Property Mapper.
+		# rewrittenPropertyMapper = 1
+	}
+	settings{
+		listPid = 1
+		detailPid = 5
+	}
+}
+page.includeCSS{
+	wcStyles = typo3conf/ext/wc/Resources/Public/Css/wcStyles.css
+}

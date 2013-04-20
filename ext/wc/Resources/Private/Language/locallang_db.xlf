@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2013-04-20T11:02:09Z" product-name="wc">
+		<header/>
+		<body>
+
+			<trans-unit id="tx_wc_domain_model_user">
+				<source>User</source>
+			</trans-unit>
+			<trans-unit id="tx_wc_domain_model_user.firstname">
+				<source>Firstname</source>
+			</trans-unit>
+			<trans-unit id="tx_wc_domain_model_user.lastname">
+				<source>Lastname</source>
+			</trans-unit>
+			<trans-unit id="tx_wc_domain_model_user.date_of_birth">
+				<source>Date Of Birth</source>
+			</trans-unit>
+			<trans-unit id="tx_wc_domain_model_user.gender">
+				<source>Gender</source>
+			</trans-unit>
+			<trans-unit id="tx_wc_domain_model_user.orig_photo">
+				<source>Orig Photo</source>
+			</trans-unit>
+			<trans-unit id="tx_wc_domain_model_user.start_weight">
+				<source>Start Weight</source>
+			</trans-unit>
+			<trans-unit id="tx_wc_domain_model_user.desired_weight">
+				<source>Desired Weight</source>
+			</trans-unit>
+			<trans-unit id="tx_wc_domain_model_user.weight_step">
+				<source>Weight Step</source>
+			</trans-unit>
+			<trans-unit id="tx_wc_domain_model_user.meal">
+				<source>Meal</source>
+			</trans-unit>
+			<trans-unit id="tx_wc_domain_model_user.training_day">
+				<source>Training Day</source>
+			</trans-unit>
+
+			<trans-unit id="tx_wc_domain_model_weightstep">
+				<source>Weight Step</source>
+			</trans-unit>
+			<trans-unit id="tx_wc_domain_model_weightstep.weight">
+				<source>Weight</source>
+			</trans-unit>
+			<trans-unit id="tx_wc_domain_model_weightstep.date">
+				<source>Date</source>
+			</trans-unit>
+			<trans-unit id="tx_wc_domain_model_weightstep.photo">
+				<source>Photo</source>
+			</trans-unit>
+
+			<trans-unit id="tx_wc_domain_model_meal">
+				<source>Meal</source>
+			</trans-unit>
+			<trans-unit id="tx_wc_domain_model_meal.date">
+				<source>Date</source>
+			</trans-unit>
+			<trans-unit id="tx_wc_domain_model_meal.photo">
+				<source>Photo</source>
+			</trans-unit>
+			<trans-unit id="tx_wc_domain_model_meal.ingredient">
+				<source>Ingredient</source>
+			</trans-unit>
+
+			<trans-unit id="tx_wc_domain_model_ingredient">
+				<source>Ingredient</source>
+			</trans-unit>
+			<trans-unit id="tx_wc_domain_model_ingredient.tx_wc_desc">
+				<source>Desc</source>
+			</trans-unit>
+			<trans-unit id="tx_wc_domain_model_ingredient.weight">
+				<source>Weight</source>
+			</trans-unit>
+
+			<trans-unit id="tx_wc_domain_model_trainingday">
+				<source>Training Day</source>
+			</trans-unit>
+			<trans-unit id="tx_wc_domain_model_trainingday.date">
+				<source>Date</source>
+			</trans-unit>
+			<trans-unit id="tx_wc_domain_model_trainingday.exercise">
+				<source>Exercise</source>
+			</trans-unit>
+
+			<trans-unit id="tx_wc_domain_model_exercise">
+				<source>Exercise</source>
+			</trans-unit>
+			<trans-unit id="tx_wc_domain_model_exercise.tx_wc_desc">
+				<source>Desc</source>
+			</trans-unit>
+			<trans-unit id="tx_wc_domain_model_exercise.time">
+				<source>Time</source>
+			</trans-unit>
+			<trans-unit id="tx_wc_domain_model_exercise.equipment">
+				<source>Equipment</source>
+			</trans-unit>
+			<trans-unit id="tx_wc_domain_model_exercise.exercise_set">
+				<source>Exercise Set</source>
+			</trans-unit>
+
+			<trans-unit id="tx_wc_domain_model_exerciseset">
+				<source>Exercise Set</source>
+			</trans-unit>
+			<trans-unit id="tx_wc_domain_model_exerciseset.times">
+				<source>Times</source>
+			</trans-unit>
+			<trans-unit id="tx_wc_domain_model_exerciseset.weight">
+				<source>Weight</source>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>
